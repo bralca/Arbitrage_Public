@@ -28,7 +28,6 @@ app.use(bodyParser.urlencoded({
 }));
 
 const exchanges = require('./lib/exchanges.js')
-const binance = require('./lib/binance.js')
 
 app.get('/oracle', (req,res) => {
 	
@@ -42,17 +41,6 @@ app.get('/oracle', (req,res) => {
 
 });
 
-app.get('/binanceMarkets', (req,res) => {
-	
-	const bin = async () => {
-
-		let availableMarkets = await binance.finder(req.query.coin, req.query.amount)
-		res.send(availableMarkets)
-	}
-
-	bin()
-
-});
 
 process.on('uncaughtException', function(err) {
 
