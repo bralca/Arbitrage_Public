@@ -7,11 +7,6 @@ This API accepts a pair of coins and the amount the user is willing to invest an
 According to Investopedia.com this is the definition of Arbitrage: 
 Arbitrage is the simultaneous purchase and sale of an asset to profit from an imbalance in the price. It is a trade that profits by exploiting the price differences of identical or similar financial instruments on different markets or in different forms. Arbitrage exists as a result of market inefficiencies and would therefore not exist if all markets were perfectly efficient.
 
-# Triangular Arbitrage
-
-According to Wikipedia: 
-Triangular arbitrage (also referred to as cross currency arbitrage or three-point arbitrage) is the act of exploiting an arbitrage opportunity resulting from a pricing discrepancy among three different currencies. A triangular arbitrage strategy involves three trades, exchanging the initial currency for a second, the second currency for a third, and the third currency for the initial. During the second trade, the arbitrageur locks in a zero-risk profit from the discrepancy that exists when the market cross exchange rate is not aligned with the implicit cross exchange rate. A profitable trade is only possible if there exist market imperfections. Profitable triangular arbitrage is very rarely possible because when such opportunities arise, traders execute trades that take advantage of the imperfections and prices adjust up or down until the opportunity disappears.
-
 # Crypto Arbitrage
 
 At the moment we only support the following Cryptocurrency Exchanges
@@ -31,7 +26,7 @@ At the moment we only support the following Cryptocurrency Exchanges
 - cryptopia 
 ```
 
-# How can I use standard arbitrage?
+# How can I use it?
 
 Base Url
 
@@ -93,16 +88,3 @@ In this case if we would have invested 1000 USDT we would have made 1.49% net pr
   }
 ]
 ```
-
-# How can I use triangular arbitrage? (Under Development)
-
-We'll use Binance to find triangular arbitrage opportunities because we can use 429 different coins. 
-We would benefit also of getting some BNB to pay for trading fees, like this we would basically pay half commissions all the time we need to trade.
-
-To get all markets related to a specific coin (for now results are limited to max 10)
-
-```
-https://gentle-hamlet-49207.herokuapp.com/binanceMarkets?coin=USDT
-```
-
-The system will search for all the markets in which we can trade the ```coin```
