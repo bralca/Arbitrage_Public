@@ -47,7 +47,7 @@ https://gentle-hamlet-49207.herokuapp.com/oracle?coin=ETH/USDT&amount=1000
 
 # Output example
 
-In this case if we would have invested 1000 USDT we would have made 1.49% net profit by following the buy and sell strategy between the 2 exchanges.
+In this case if we would have invested ```1000 USDT``` we would have made 1.49% ```(totalQuantity: 1014.9341957981438 USDT)``` net profit by following the buy and sell strategy between the 2 exchanges.
 
 ```
 [
