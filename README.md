@@ -1,6 +1,6 @@
 # Arbitrage
 
-This API accepts a pair of coins and the amount the user is willing to invest and it returns the best arbitrage strategy among all the supported exchanges by simulating the order placement for buy and sell requests. 
+This API accepts a pair of coins and the amount the user is willing to invest and it returns the best arbitrage strategy among all the supported crypto exchanges by simulating the order placement for buy and sell requests. 
 
 # What is arbitrage? 
 
