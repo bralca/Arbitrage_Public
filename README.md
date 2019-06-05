@@ -71,7 +71,3 @@ In this case if we would have invested ```1000 USDT``` we would have made 1.49% 
   }
 ]
 ```
-
-# I don't see any results
-
-In this case it simply means that there are not arbitrage opportunities among the supported exchanges. Try to use a smaller amount.
