@@ -26,24 +26,7 @@ At the moment we only support the following Cryptocurrency Exchanges
 - cryptopia 
 ```
 
-# How can I use it?
 
-Base Url
-
-```
-https://gentle-hamlet-49207.herokuapp.com/oracle
-```
-
-Required Params:
-
-- ```coin```: (ex. ETH/USDT)
-- ```amount```: (ex. 1000 USDT)
-
-Final Url 
-
-```
-https://gentle-hamlet-49207.herokuapp.com/oracle?coin=ETH/USDT&amount=1000
-```
 
 # Output example
 
