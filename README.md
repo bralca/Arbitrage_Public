@@ -71,3 +71,8 @@ In this case if we would have invested ```1000 USDT``` we would have made 1.49% 
   }
 ]
 ```
+
+
+# DISCLAIMER
+
+This project is not being maintaned anymore.
