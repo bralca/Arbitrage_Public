@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "array-slice": "^1.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "binance-api-node": "^0.8.5",
     "body-parser": "^1.18.3",
     "ccxt": "^1.17.489",
